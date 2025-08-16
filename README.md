@@ -1,4 +1,4 @@
-<img src="https://c.tenor.com/tutOrPg7LLMAAAAd/tenor.gif" width="200"/>
+<img src="https://c.tenor.com/tutOrPg7LLMAAAAd/tenor.gif" width="200%"/>
 
 # Hi there, I'm Iyyneswaran 👋
 
