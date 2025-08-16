@@ -1,4 +1,4 @@
-<img src="https://canada1.discourse-cdn.com/flex036/uploads/retrogameboards/original/2X/4/443cbf155102b5df1caff27d5c034d0f26213dd7.gif"/>
+<img src="https://canada1.discourse-cdn.com/flex036/uploads/retrogameboards/original/2X/4/443cbf155102b5df1caff27d5c034d0f26213dd7.gif" width="100%"/>
 
 # Hi there, I'm Iyyneswaran 👋
 
