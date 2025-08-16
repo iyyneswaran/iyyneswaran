@@ -31,7 +31,7 @@ I'm passionate about software development, open source, and building things that
 
 ## 🤝 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin/)
+- [LinkedIn](https://www.linkedin.com/in/iyyneswaran07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - [Personal Website](https://yourwebsite.com) 
 
 Thanks for visiting my profile! ⭐️
