@@ -1,6 +1,6 @@
 <img src="https://canada1.discourse-cdn.com/flex036/uploads/retrogameboards/original/2X/4/443cbf155102b5df1caff27d5c034d0f26213dd7.gif" width="100%"/>
 
-# Hi there, I'm Iyyneswaran 👋
+# Hi there, I'm Iyyneswaran, the spidey 👋
 
 Welcome to my GitHub profile!  
 I'm passionate about software development, open source, and building things that make a difference. Here you'll find some of my projects, collaborations, and contributions to the developer community.
@@ -10,7 +10,7 @@ I'm passionate about software development, open source, and building things that
 - 🌱 I’m always learning something new, especially in web development and AI.
 - 💬 Ask me about programming, open source, or anything tech-related!
 - 😄 Pronouns: Spidey
-- ⚡ Fun fact: [A fun fact about you!]
+- ⚡ Fun fact: I'm dumb
 
 ## 🛠️ Languages and Tools
 ![Languages](https://img.shields.io/badge/-Python-blue?logo=python)
