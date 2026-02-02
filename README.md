@@ -53,19 +53,6 @@ I'm passionate about software development, open source, and building things that
 
 ---
 
-## 🐍 Streak (animated)
-<!-- The animated streak uses an SVG file named `streak-snake.svg` in the repo root.
-     If your browser/GitHub doesn't render SVG animation, the fallback image (streak stats)
-     will still show below. -->
-<picture>
-  <source srcset="./streak-snake.svg" type="image/svg+xml">
-  <img alt="Streak stats fallback" src="https://github-readme-streak-stats.herokuapp.com/?user=iyyneswaran&theme=dark&hide_border=true" />
-</picture>
-
-> Tip: `streak-snake.svg` combines the standard streak stats image and overlays an animated snake that glides over the contribution area for a playful look.
-
----
-
 ## 🔭 Current & Recent
 - Building full-stack features with **FastAPI**, **React**, and **websockets**.
 - Data handling and analytics with **pandas**, migrations/ORM with **SQLAlchemy**, and typed validation using **Zod**.
