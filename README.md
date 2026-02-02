@@ -47,9 +47,23 @@ I'm passionate about software development, open source, and building things that
 ---
 
 ## 📈 GitHub Stats
-<!-- Keep these two cards if you already use them — they update automatically. -->
-![Iyyneswaran's GitHub stats](https://github-readme-stats.vercel.app/api?username=iyyneswaran&show_icons=true&hide_title=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iyyneswaran&layout=compact)
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=iyyneswaran&show_icons=true&theme=tokyonight&hide_border=true"
+    height="165"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=iyyneswaran&layout=compact&theme=tokyonight&hide_border=true"
+    height="165"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=iyyneswaran&theme=tokyonight&hide_border=true"
+  />
+</p>
 
 ---
 
