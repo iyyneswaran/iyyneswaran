@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 640 120"
+     width="640" height="120" role="img" aria-label="Streak stats with snake animation">
+
+  <!-- background: live streak image (replace user param if needed) -->
+  <image x="0" y="0" width="640" height="120"
+         xlink:href="https://github-readme-streak-stats.herokuapp.com/?user=iyyneswaran&theme=dark&hide_border=true" />
+
+  <!-- invisible path overlay roughly following the contribution blocks -->
+  <path id="snake-path"
+        d="M20 90 C80 30, 140 110, 200 60 C260 10, 320 110, 380 60 C440 10, 520 110, 620 70"
+        fill="none" stroke="transparent" stroke-width="2"/>
+
+  <!-- multi-segment snake body: lead + 6 trailing segments -->
+  <g id="snake-body" transform="translate(0,-6)">
+    <!-- head -->
+    <circle r="6" fill="#39FF14" stroke="#083D00" stroke-width="1">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+
+    <!-- trailing segments with phased starts for tail effect -->
+    <circle r="5" fill="#2BE21A" stroke="#083D00" stroke-width="0.8" opacity="0.95">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" begin="-0.15s">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+
+    <circle r="4.5" fill="#26C516" stroke="#083D00" stroke-width="0.7" opacity="0.9">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" begin="-0.30s">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+
+    <circle r="4" fill="#20A612" stroke="#083D00" stroke-width="0.6" opacity="0.85">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" begin="-0.45s">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+
+    <circle r="3.5" fill="#1B8F0E" stroke="#083D00" stroke-width="0.5" opacity="0.8">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" begin="-0.60s">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+
+    <circle r="3" fill="#147A09" stroke="#083D00" stroke-width="0.4" opacity="0.75">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" begin="-0.75s">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+
+    <circle r="2.5" fill="#0E6405" stroke="#083D00" stroke-width="0.35" opacity="0.7">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto" begin="-0.9s">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- small eye on head (moves with head by using same motion) -->
+  <g>
+    <circle r="1.3" fill="#001100" transform="translate(3,-2)">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#snake-path" />
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- subtle shimmer over the top as a micro-animation -->
+  <rect x="0" y="0" width="640" height="120" fill="url(#grad)" opacity="0.02">
+    <animate attributeName="x" from="-640" to="640" dur="6s" repeatCount="indefinite" />
+  </rect>
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+</svg>
